@@ -193,3 +193,26 @@ export interface CommunityCompsData {
   byBuild: Record<string, string[]>;
   comps: Record<string, CommunityComp>;
 }
+
+export type AvalonResourceKey =
+  | "green"
+  | "blue"
+  | "rock"
+  | "wood"
+  | "hide"
+  | "ore"
+  | "dg_solo"
+  | "dg_group";
+
+/** Avalon Roads map (data/avalon-maps.json). */
+export interface AvalonMap {
+  name: string;
+  tier: "T4" | "T6" | "T8";
+  resources: Record<AvalonResourceKey, number>;
+}
+
+export interface AvalonMapsData {
+  source: string;
+  fetchedAt: string;
+  maps: AvalonMap[];
+}

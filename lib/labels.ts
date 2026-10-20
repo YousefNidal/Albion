@@ -1,7 +1,7 @@
 import communityModesRaw from "@/data/builds2-modes.json";
 import itemsLocaleRaw from "@/data/items-locale.json";
 import spellsLocaleRaw from "@/data/spells-locale.json";
-import type { Build, CommunityMode, PoolCat } from "./types";
+import type { AvalonResourceKey, Build, CommunityMode, PoolCat } from "./types";
 
 /**
  * Pure label/icon helpers shared by server and client components.
@@ -129,4 +129,38 @@ export function buildTitle(b: Build): string {
 
 export function buildDesc(b: Build): string | null {
   return b.description_ru || b.description;
+}
+
+export const AVALON_RESOURCE_RU: Record<AvalonResourceKey, string> = {
+  green: "Зелёный сундук",
+  blue: "Синий сундук",
+  rock: "Камень",
+  wood: "Дерево",
+  hide: "Шкура",
+  ore: "Руда",
+  dg_solo: "Соло-подземелье",
+  dg_group: "Групповое подземелье",
+};
+
+export const AVALON_RESOURCE_ORDER: AvalonResourceKey[] = [
+  "green",
+  "blue",
+  "rock",
+  "wood",
+  "hide",
+  "ore",
+  "dg_solo",
+  "dg_group",
+];
+
+export const AVALON_TIERS = ["T4", "T6", "T8"] as const;
+
+/** Local icon in public/avalon-icons. */
+export function avalonIcon(key: AvalonResourceKey): string {
+  return `/avalon-icons/${key}.webp`;
+}
+
+/** Map preview image hosted by the source site. */
+export function avalonMapImage(name: string): string {
+  return `https://www.albiononlinebuilds.com/avalon-maps/${encodeURIComponent(name)}.webp`;
 }

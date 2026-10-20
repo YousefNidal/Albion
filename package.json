@@ -9,7 +9,8 @@
     "test": "node scripts/test-flips.mts",
     "fetch:builds2": "node scripts/fetch-builds2.mjs",
     "fetch:builds2:details": "node scripts/fetch-builds2-details.mjs",
-    "fetch:builds2:comps": "node scripts/fetch-builds2-comps.mjs"
+    "fetch:builds2:comps": "node scripts/fetch-builds2-comps.mjs",
+    "fetch:avalon": "node scripts/fetch-avalon-maps.mjs"
   },
   "dependencies": {
     "next": "16.4.2",

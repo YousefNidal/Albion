@@ -11,6 +11,7 @@ export function SiteHeader() {
         <nav className="flex gap-6">
           <NavLink href="/builds">Билды</NavLink>
           <NavLink href="/builds2">Топ билдов</NavLink>
+          <NavLink href="/maps/avalon">Карты Авалона</NavLink>
         </nav>
       </div>
     </header>
