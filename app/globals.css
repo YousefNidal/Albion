@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --color-ink: #0d131f;
+  --color-ink-2: #111a2b;
+  --color-panel: #162034;
+  --color-panel-2: #1b2740;
+  --color-line: #2a3650;
+  --color-line-2: #3b4a6a;
+  --color-text: #e9eef7;
+  --color-muted: #93a0b8;
+  --color-gold: #e0a83c;
+  --color-gold-hi: #f5c96a;
+  --color-green: #55b47d;
+  --color-red: #e26969;
+
+  --font-display: "Old Standard TT", Georgia, serif;
+  --font-body: "PT Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #0d131f;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}

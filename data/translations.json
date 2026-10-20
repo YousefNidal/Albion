@@ -1,0 +1,791 @@
+{
+ "bloodmoon-staff-group-dungeon-solo-build": {
+  "title_ru": "Bloodmoon Staff — групповой данж (соло)",
+  "description_ru": "Сборка с Посохом Кровавой луны для групповых данжей в соло-фарме."
+ },
+ "battleaxe-mist-build": {
+  "title_ru": "Боевой топор — Мисты (соло)",
+  "description_ru": "Универсальная сборка с боевым топором: отличная жизнь и высокий урон. Отлично подходит для соло- и малых групп, здесь настроена под соло-Мисты."
+ },
+ "battleaxe-open-world-farm-pvp-build": {
+  "title_ru": "Боевой топор — открытый мир, PvE/PvP",
+  "description_ru": "Баланс силы и стоимости. Рекомендуется для соло-PvE/PvP в открытом мире (лагеря, данжи), попутно убивая фармеров и ганкеров. Зелье невидимости помогает подходить незамеченным. Шлем Fiend Cowl важен: его способность обнуляет ботинки врагов — используйте в нужный момент. Muisak можно брать в офхенд, но на PvE он сильно ест ману, поэтому здесь факел — дешёвый и стабилизирует ману."
+ },
+ "quarterstaff-solo-meta-pvp-pve-build": {
+  "title_ru": "Посох — мета-сборка соло, PvP/PvE",
+  "description_ru": "Проста в использовании и прибыльна."
+ },
+ "bloodmoon-dps-arena": {
+  "title_ru": "Bloodmoon Staff (DPS) — Хрустальная арена",
+  "description_ru": "Основная роль — дайв в тыл врага и охота на их хилера и дальнего DPS. Несмотря на живучесть и вампиризм, при необходимости отступайте к своему хилеру. Сборка раскрывается в дуо/трио, где проще координация; в собранных 5v5 команда-враг легко её контрит."
+ },
+ "fulgurante-bau-estradas-avalonianas": {
+  "title_ru": "Blazing Staff — золотые сундуки Авалона",
+  "description_ru": "С Blazing Staff всё просто: наденьте Королевскую робу до того, как танк соберёт мобов, используйте «F» ботинок, затем «E», «Q» и «W» для срыва способностей мобов. Шлем Убийцы сбрасывает ваши способности!"
+ },
+ "healer-bau-estradas-avalonianas": {
+  "title_ru": "Hallowfall — хилер, золотые сундуки Авалона",
+  "description_ru": "Шлем Graveguard используйте только когда у танка мало здоровья! Приоритет хила всегда на танке, остальная группа уворачивается от способностей мобов. Королевскую робу можно использовать на второй ротации скиллов для усиления урона группы. Хилеру не нужно стоять с группой: держитесь сбоку, ближе к танку, но вдали от мобов."
+ },
+ "infinity-blade-backline-dive-crystal-arena": {
+  "title_ru": "Infinity Blade — дайв в тыл, Хрустальная арена",
+  "description_ru": "Сборка для дайва в тыл; главная цель — хилер врага. Плащ: Thetford или Avalonian — лично использую Thetford из-за короткого кулдауна для большего суммарного DPS при попытках прилипнуть к хилеру. Ротация: если можно выйти на хилера — делайте это; иначе потрите противников Q и вернитесь к своему хилеру. При дайве: открывайте Q, затем броня > ботинки > автатаки > E (даёт огромный буст урона на 5 сек) > автатаки > Q > автатаки > W > автатаки, дальше кидайте скиллы по кулдауну. Шлем — мощный инструмент: снимает мета-эффекты (Hellion Jacket, Cleric Robe и т.д.) и очищает союзников; приберегите его под робу хилера или используйте как клинз. Рекомендуется, если хилер готов дайвить вместе с вами; иначе лучше играть альтернативной веткой (свап-сет очень полезен)."
+ },
+ "dagger-solo-tracking-build": {
+  "title_ru": "Кинжал — соло-трекинг",
+  "description_ru": "Дешёвая и простая сборка для начинающих трекинг. Соло добывает зверей вплоть до T7; дальше лучше перейти на дальнобойную сборку — у зверей вроде Dawnbird много способностей, которые надо уворачивать, и в ближнем бою это тяжело."
+ },
+ "druidic-staff-solo-open-world-camps-build": {
+  "title_ru": "Druidic Staff — соло, лагеря в открытом мире",
+  "description_ru": "Сборка дешёвая и эффективно чистит мобов. Однако старайтесь избегать большинства боёв, если у вас нет опыта игры на Природном посохе."
+ },
+ "guia-bau-estradas-avaloninanas": {
+  "title_ru": "Lightcaller — золотые сундуки Авалона",
+  "description_ru": "Чем больше стаков, тем выше урон. Используйте плащ Керлеона, чтобы набрать 2 стака «Q», а перед ультимейтом включите «R» робы Друида."
+ },
+ "chama-sombra-bau-estradas-avalonianas": {
+  "title_ru": "Shadowcaller — золотые сундуки Авалона",
+  "description_ru": "Shadowcaller кидает «E» по танку, когда тот аггрирует мобов; затем шлем Стрикера «D» на усиление урона группы, «W» для снижения сопротивления моба и «Q» для DPS. Королевская роба сбрасывает скиллы группы. Песочальные сандалии «F» снижают защиту и лечение моба, но нужно стоять рядом с ним."
+ },
+ "solo-open-world-1h-spear-5-1": {
+  "title_ru": "Одноручное копьё — открытый мир (соло)",
+  "description_ru": "Личная сборка на основе роликов ютуберов и опыта. Шлем бесценен, чтобы успеть вскочить на маунта, если вас поймали ганкеры во время фарма мобов."
+ },
+ "prisma-bau-estradas-avalonianas": {
+  "title_ru": "Permafrost Prism — золотые сундуки Авалона",
+  "description_ru": "Используйте робу «R», затем сандалии «F», потом «W», «E» и постоянно кидайте «Q»."
+ },
+ "fura-bruma-bau-estradas-avalonianas": {
+  "title_ru": "Mistpiercer — золотые сундуки Авалона",
+  "description_ru": "Используйте королевский шлем «D», затем королевские сандалии «F», после — «R» и «E». Всё просто! Только следите, чтобы «E» не задело мобов на заднем плане."
+ },
+ "lightcaller-plate-crystal-arena-build": {
+  "title_ru": "Lightcaller (плат) — Хрустальная арена",
+  "description_ru": "Набирайте стаки, держа дистанцию. Если возможно, заряжайте ярость активками груди. Когда готово — спамьте Q и автатаки, полностью используя пассивку оружия. Учитесь вовремя кидать W в форме птицы, особенно в стягах и узких местах."
+ },
+ "tank-bau-estradas-avalonianas": {
+  "title_ru": "Incubus Mace — танк, золотые сундуки Авалона",
+  "description_ru": "Используйте «W», затем «F» на мобов, «Q» для агро и «E». После этого группа может атаковать! Включайте шлем, если чувствуете, что падаете."
+ },
+ "bloodletter-open-world-mists-avalon": {
+  "title_ru": "Bloodletter — открытый мир / Мисты / Авалон",
+  "description_ru": "Отличный баланс между высоким бёрстом и живучестью."
+ },
+ "arco-longo-bau-estradas-avaloninanas": {
+  "title_ru": "Longbow — золотые сундуки Авалона",
+  "description_ru": "Используйте последовательность: F, D, W, E, затем Королевскую робу «R» и Q вместе с базовыми атаками."
+ },
+ "spiked-gauntlets-open-world-build": {
+  "title_ru": "Spiked Gauntlets — фарм фейма в открытом мире",
+  "description_ru": "Главный приоритет — высокий AoE-бёрст по большим пачкам мобов через Gravitational Collapse. Одна из простейших PvE-сборок: работает в Мистах, в аббатстве Мистов, чистит мобов в открытом мире и соло-данжах. Отличный способ новичкам поднять популярность."
+ },
+ "dagger-mist-build": {
+  "title_ru": "Кинжал — Мисты (соло)"
+ },
+ "longbow-dps-group-fame-farm-build": {
+  "title_ru": "Длинный лук — DPS, групповой фарм фейма"
+ },
+ "whispering-bow-group-gank-build": {
+  "title_ru": "Whispering Bow — групповой ганк"
+ },
+ "besta-leve-bau-estradas-avaloninanas": {
+  "title_ru": "Лёгкий арбалет — золотые сундуки Авалона",
+  "description_ru": "У Лёгкого арбалета есть последовательность скиллов для максимального урона: R, E, Q, Q, Q, W, F, Q, Q, W, D, Q, Q. У арбалета есть пассивка, сбрасывающая «Q» после 4 способностей; плащ Керлеона тоже сбрасывает «Q» по таймеру. Так можно выдать «Q» 4 раза подряд, увеличив урон по мобам. После комбо чередуйте скиллы, но всегда кидайте «Q» на 4-м стаке пассивки. Кажется сложным, но это просто дело тренировки!"
+ },
+ "hallowfall-solo-fame-farm-abyssal-depths-build": {
+  "title_ru": "Hallowfall — фарм фейма в Бездне (соло)"
+ },
+ "heron-spear-crystal-arena-build": {
+  "title_ru": "Heron Spear — Хрустальная арена"
+ },
+ "abysall-depths-3v3-phantom-twinblade": {
+  "title_ru": "Бездна (3v3) — Phantom Twinblade"
+ },
+ "fire-staff-smallscale-build": {
+  "title_ru": "Огненный посох — смаллскейл, DPS"
+ },
+ "abyssal-depths-hellspawn-staff-build": {
+  "title_ru": "Бездна — Hellspawn Staff"
+ },
+ "mistpiercer-pve-build-for-gold-chests": {
+  "title_ru": "Mistpiercer — PvE для золотых сундуков",
+  "description_ru": "Scholar Robe — субоптимально для DPS. Держите его как свап на возможный PvP: набрать стаки Druid Robe по требованию сложно. Druid Robe, Assassin Hood и плащ Морганы дают максимальный урон. В какой-то момент скорость очистки упирается в кулдауны, а не в урон — тогда Royal Hood становится бесполезным. Если ваш DPS ниже, чем с более распространённой связкой Scholar Robe + Royal Hood, пришлите доказательство в игре в личку и я дам 1 млн серебра."
+ },
+ "longbow-rdps-crystal-arena-build": {
+  "title_ru": "Длинный лук — RDPS, Хрустальная арена",
+  "description_ru": "Длинный лук — DPS для арены."
+ },
+ "bear-paws-solo-gank-and-brawl-build": {
+  "title_ru": "Bear Paws — соло-ганк и бой в толпе",
+  "description_ru": "Внимание: у сборки крутая кривая обучения, нужно много практики! Сильная соло-ганк сборка: высокий бёрст и мобильность, идеальна, чтобы убивать слабоэкипированных игроков за секунды. Засада, зелье невидимости и Нежитьевой плащ дают 7, 7 и 6 секунд невидимости — идеально для скрытых атак или побега. Пассивка плаща «Vanisher» позволяет继续 наносить урон, но весь урон и лечение снижаются на 50% — всё равно это значительное преимущество. Комбо: F > W > E > Q > Q > Q. Начинайте с «Defenseless Rush» для быстрого сближения, затем «Adrenaline Boost» для усиления урона, «Razor Cut» для рывка в ближний бой и завершайте тройным «Rending Rage»."
+ },
+ "carving-sword-open-pvp": {
+  "title_ru": "Carving Sword — открытый PvP",
+  "description_ru": "-"
+ },
+ "grovekeeper-crystal-arena-tank-build": {
+  "title_ru": "Grovekeeper — танк, Хрустальная арена",
+  "description_ru": "Мой любимый танк-билд для арены. Лучше всего работает в группе, но отлично защищает команду и даёт хилеру передышку."
+ },
+ "bow-cd-build": {
+  "title_ru": "Лук — искажённый данж",
+  "description_ru": "В зависимости от матча можно менять Poisoned Arrow (Q) и Ray of Light (W)."
+ },
+ "astral-staff-crystal-arena-team-killer": {
+  "title_ru": "Astral Staff — «киллер команд», Хрустальная арена",
+  "description_ru": "F -> R -> E -> D (перезарядка) -> ПОВТОР."
+ },
+ "blight-staff-crystal-arena-healer": {
+  "title_ru": "Blight Staff — хилер, Хрустальная арена",
+  "description_ru": "3 Q по танку -> W по танку, чтобы раздать заряженный Q всей команде -> E при низком HP или 3 Q по себе -> W по себе, чтобы раздать заряженный Q всей команде -> E при низком HP. Быстрое применение на себя: alt + Q / alt + W."
+ },
+ "druidic-staff-solo-fame-farm-build": {
+  "title_ru": "Druidic Staff — фарм фейма (соло)",
+  "description_ru": "Окончательная сборка для фарма фейма на Druidic Staff. Ключевой плейстайл: используйте «Revitalize» со спецспособностью Cleric Robe для полного хила или между атаками. Soldier Armor блокирует урон, делая вас танки. Scholar Sandals держат ману (можно заменить на Cultist Sandals). Факел повышает скорость атаки — Q2 (Thorn Growth) наносит больше урона и восстанавливает больше энергии (пассивка Energetic). Опционально: Lymhurst Cape и Demon Cape помогают на длинной дистанции; Cultist Cowl добавляет урона, но уклонение и терпение важнее. Проверено: сборка чистит T8-лагеря и синие сундуки дорог Авалона даже на 4.2-экипировке без особого плаща. Удачного фарма!"
+ },
+ "dual-sword-bz-budget": {
+  "title_ru": "Двойные мечи — бюджет для Чёрных земель",
+  "description_ru": "Самая простая."
+ },
+ "rotcaller-staff-open-world-pve-pvp": {
+  "title_ru": "Rotcaller Staff — открытый мир, PvE/PvP",
+  "description_ru": "Обратите внимание: эта сборка с Проклятым посохом «офф-мета», но даёт фундаментальные скиллы для PvE и PvP — именно этим я и пользуюсь в открытом мире."
+ },
+ "dawnsong-crystal-arena-dps-in-area": {
+  "title_ru": "Dawnsong — DPS по площади, Хрустальная арена",
+  "description_ru": "СЖИГАЙТЕ ВРАГОВ."
+ },
+ "holy-staff-healer-pve-group-build": {
+  "title_ru": "Святой посох — хилер, групповой PvE",
+  "description_ru": "Абсолютный приоритет — танк. Если танк умрёт, вся команда, скорее всего, погибнет тоже. Даже если DPS получает урон, фокус должен быть на танке (если можно вылечить DPS, не рискуя танком — лечите, но танк в приоритете). DPS сами уворачиваются. Управление агро: не лечите танка, пока он не «ударил» мобов способностью (Q, E или W) — иначе сорвёте агро и провалите пул. Лечить танка без воровства агро можно зельем «Calm»: становитесь невидимым для мобов, лечите танка, затем кастуете Graveguard Helmet. Используйте Q или EQ, когда танк аггрирует; W — на большие пуллы; шлем Graveguard — для мощных хилов; «Druid's Habit» даёт ману себе и группе. Пассивка хилера: после четырёх скиллов лечение +20%. Комбо: роба + шлем + W + Q + E и продолжайте спамить Q — чем больше стаков, тем больше лечение."
+ },
+ "phantom-twinblade-quarterstaff-arena-build": {
+  "title_ru": "Phantom Twinblade — арена",
+  "description_ru": "Самодостаточная бройзерская сборка с большим AoE-уроном, хорошей защитой, приличным сustain и утилитой. На затяжных боях может не хватать энергии — обычно беру дешёвые зелья энергии."
+ },
+ "shadowcaller-pve-dps-build-for-gold-chests": {
+  "title_ru": "Shadowcaller — PvE DPS для золотых сундуков",
+  "description_ru": "Сфокусироваться на DPS — лучше. Вариант «utility-бота» для Shadowcaller (Hellion Hood + Royal Jacket + Mistcaller) — субоптимальная костыльная сборка для команд с низким DPS; им лучше взять GA на усилении луча. Если вы играете Shadowcaller ради утилиты, ненавидите себя, ненавидит команда — и вы ненавидите команду. Всегда кидайте E на себя. Если не согласны — изучите, как работают сопротивления и сколько брони/магического сопротивления у мобов в групповом контенте. Спектральный и Stalker Jacket тоже работают, но почти для любого PvE DPS лучший — Druid Robe."
+ },
+ "kill-em-all-2v2-abyssal-depths-be-greedy-boy": {
+  "title_ru": "Убей всех (Бездна 2v2) — будь жадным",
+  "description_ru": "Всё просто — забирай все трофеи, ха-ха."
+ },
+ "demonfang-smallscale-build": {
+  "title_ru": "Demonfang — смаллскейл, DPS"
+ },
+ "polehammer-hellgate-build": {
+  "title_ru": "Polehammer — хеллгейт"
+ },
+ "crossbow-oneshot-solo-gank-build": {
+  "title_ru": "Арбалет — онешот, соло-ганк",
+  "description_ru": "Активируйте робу -> W -> E -> Q + Demon Helmet для силенса или Cowl of Purity для доп. урона, если цель ещё жива."
+ },
+ "hallowfall-healer-zvz-build": {
+  "title_ru": "Hallowfall — хилер ZvZ"
+ },
+ "lightcaller-group-dps-build": {
+  "title_ru": "Lightcaller — DPS в группе"
+ },
+ "claws-group-gank-build": {
+  "title_ru": "Claws — групповой ганк"
+ },
+ "cursed-staff-solo-open-world-budget": {
+  "title_ru": "Проклятый посох — открытый мир (бюджет)"
+ },
+ "infinity-blade-solo-depths-fame-farm-build": {
+  "title_ru": "Infinity Blade — фарм фейма в Бездне (соло)",
+  "description_ru": "В идеале иметь Infinity Blade T4.4 с бонусом фейма мобов 20%+, так как вы его не можете потерять. Максимизируйте все внешние бонусы фарма фейма: бафф авалонского данжа, юбилейные торты, клятвы рыцарей и т.д."
+ },
+ "bloodmoon-staff-smallscale-dps-build": {
+  "title_ru": "Bloodmoon Staff — смаллскейл, DPS"
+ },
+ "crystal-reaper-arena": {
+  "title_ru": "Crystal Reaper — арена"
+ },
+ "chillhowl-mist-build": {
+  "title_ru": "Chillhowl — Мисты (соло)"
+ },
+ "grailseeker-duo-mist-build": {
+  "title_ru": "Grailseeker — Мисты (дуо)"
+ },
+ "realmbreaker-smallscale-build": {
+  "title_ru": "Realmbreaker — смаллскейл, DPS"
+ },
+ "fists-of-avalon-smallscale-build": {
+  "title_ru": "Fists of Avalon — смаллскейл, DPS"
+ },
+ "druidic-staff-solo-tracking-build": {
+  "title_ru": "Druidic Staff — соло-трекинг"
+ },
+ "dagger-pair-group-gank-build": {
+  "title_ru": "Пара кинжалов — групповой ганк"
+ },
+ "cursed-staff-hellgate-build": {
+  "title_ru": "Проклятый посох — хеллгейт"
+ },
+ "glacial-staff-dps-abyssal-depths-build": {
+  "title_ru": "Glacial Staff — DPS в Бездне",
+  "description_ru": "Сборка даёт хороший DPS за счёт «Ice Shard» и огромной «Zone»-способности, смертельной в узких местах: одновременно CC и урон. Плейстайл: лучше подходит для Бездны 3v3, чем 2v2 (надёжнее CC от тиммейтов); хорошо синергирует с союзниками для максимизации «Zone» и урона E. Сильные стороны: контроль площади в тесноте, высокий бёрст + CC-комбо."
+ },
+ "lifecurse-staff-support-zvz-build": {
+  "title_ru": "Lifecurse Staff — саппорт ZvZ"
+ },
+ "realmbreaker-support-group-fame-farm-build": {
+  "title_ru": "Realmbreaker — саппорт, групповой фарм фейма"
+ },
+ "infinity-blade-zvz-dps-brawl-build": {
+  "title_ru": "Infinity Blade — DPS ZvZ, бой в толпе",
+  "description_ru": "Сборка Infinity Blade для ZvZ: высокий бёрст, мобильность и выживаемость в хаотичных массовых боях. Отлично подходит для дайва в стяг, нанесения AoE-урона и быстрой смены позиции для уклонения от контр-атак."
+ },
+ "ironroot-staff-2v2-hellgate-build": {
+  "title_ru": "Ironroot Staff — хеллгейт 2v2"
+ },
+ "fists-of-avalon-cd-build": {
+  "title_ru": "Fists of Avalon — искажённый данж"
+ },
+ "heavy-mace-smallscale-build": {
+  "title_ru": "Heavy Mace — смаллскейл, танк"
+ },
+ "mistpiercer-zvz-dps-build": {
+  "title_ru": "Mistpiercer — DPS ZvZ"
+ },
+ "infernal-scythe-a-tier": {
+  "title_ru": "Infernal Scythe — тир A+",
+  "description_ru": "Хороший добивающий урон и постоянное давление, дружелюбна к новичкам. Q: Rending spin с плащем Керлеона, Rending rage с плащем Мартлока. Примечание: если rage — кидайте два раза и ждите кулдаун для максимизации DPS, если только не нужно пригвоздить. Альтернативы: Carving, Realmbreaker."
+ },
+ "battleaxe-solo-open-world-brawl-build": {
+  "title_ru": "Боевой топор — соло, открытый мир",
+  "description_ru": "Хорошо чистит лагеря, может соло босс-льиры и эффективно фармит мобов в открытом мире. Можно и PvP: боевой топор — один из лучших инструментов для 1v1/1v2 в игре."
+ },
+ "crossbow-depths": {
+  "title_ru": "Арбалет — Бездна"
+ },
+ "boltcasters-solo-gank-build": {
+  "title_ru": "Boltcasters — соло-ганк",
+  "description_ru": "На шлем хотите Harvester's Cap и магическую пыльцу, но если не хотите поднимать гатеринг — берите Royal Helmet."
+ },
+ "kingmaker-open-world-pvp-build": {
+  "title_ru": "Kingmaker — открытый PvP"
+ },
+ "frost-mist-build": {
+  "title_ru": "Ледяной посох — Мисты (соло)"
+ },
+ "1h-fire-staff-tracking": {
+  "title_ru": "Одноручный огненный посох — трекинг"
+ },
+ "healer-for-trio-abyssal-depths": {
+  "title_ru": "Хилер для трио в Бездне",
+  "description_ru": "Не забудьте правильно выставить пассивки. Если берёте щит в офхенд — можно Enchanted Pork Omelette. Без щита берите Mistcaller, но тогда еда — зачарованный авалонский омлет. С Mistwalker Shoes берите Gigantify Potion вместо Resistance. Приберегите шлем (и плащ) на случай встречи с врагом."
+ },
+ "fire-mist-build": {
+  "title_ru": "Огненный посох — Мисты (соло)"
+ },
+ "flamewalker-ihurtfatkid-mist-dps-build": {
+  "title_ru": "Flamewalker (IHURTFATKID) — Мисты, DPS",
+  "description_ru": "Готовы разбивать жирных малышей?"
+ },
+ "blight-staff-healer-zvz-build": {
+  "title_ru": "Blight Staff — хилер ZvZ"
+ },
+ "prowling-staff-mist-pvp-build": {
+  "title_ru": "Prowling Staff — Мисты, PvP",
+  "description_ru": "Очень сильная сборка на Prowling — одна из самых популярных прямо сейчас (по состоянию на 26.02.2025), если не самая популярная."
+ },
+ "badon-mist-build": {
+  "title_ru": "Bow of Badon — Мисты (соло)"
+ },
+ "only-thing-i-wish-is-a-god": {
+  "title_ru": "Единственное, о чём я мечтаю — бог",
+  "description_ru": "Единственное, чего я желаю — бога."
+ },
+ "truebolt-hammer-abyssal-depths-build": {
+  "title_ru": "Truebolt Hammer — Бездна",
+  "description_ru": "Q оружия — Powerful Swing. (Просто поставил Forceful Swing, так как Powerful Swing не появляется в списке.)"
+ },
+ "broadsword-total-ownage": {
+  "title_ru": "Broadsword — полное доминирование",
+  "description_ru": "Сборка Broadsword со Шлемом охотника, Курткой наёмника, Сандалиями учёного, Facebreaker или Sarcophagus Shield, плащем Мартлока, запечённой рыбой и зельями лечения/гигантизма — полностью офф-мета, но чрезвычайно эффективна в честных дуэлях, где бой решают тайминг, механика и точность защитных действий. Концепция: побеждать 1v1 за счёт стаков Broadsword, прерывания ключевых способностей врага E, высокого sustain через Куртку наёмника и отражения урона Шлемом охотника. Плейстайн прост: меняться уроном напрямую, используя защитные скиллы в идеальный момент — обычно в ответ на главный бёрст врага. E — ваш сильнейший инструмент: прерывает способности, даёт бёрст, скорость и позволяет прилипать к цели; старайтесь использовать E с максимумом стаков (3). Но прерывание критической способности важнее сэкономленных стаков. Щит: Facebreaker — агрессивнее, Sarcophagus — стабильнее. Шлем охотника — инструмент рефлекта против бёрста. Куртка наёмника — сердце sustain при быстрых автатаках. Сандалии учёного держат ману и дают рывок для сброса кулдаунов."
+ },
+ "greataxe-best-solo-pve-fame-farming-build": {
+  "title_ru": "Двуручный топор — лучший соло-PvE фарм фейма",
+  "description_ru": "Отличный sustain и AoE."
+ },
+ "arcane-oneshot-hellgate-build": {
+  "title_ru": "Аркан — онешот, хеллгейт",
+  "description_ru": "Можно сменить ботинки; Shoes of Tenacity дают больше статов, так как это артефактная пара."
+ },
+ "abyssal-depths-3v3-or-1v3-crystal-reaper": {
+  "title_ru": "Бездна (3v3 или 1v3) — Crystal Reaper",
+  "description_ru": "Сборка для игры дипсом в трио (в команде или соло). На алтарях сначала W, затем стягивайте мобов в одну точку, после R>D>E, чередуя Q и W. Scholar Cowl — для затяжных боёв, когда никто не даёт энергию; Mercenary Hood — лучший выбор для преследования и дебаффов. При меньшем бюджете можно зелья T5; еда обязательна T7."
+ },
+ "longbow-smallscale-build": {
+  "title_ru": "Длинный лук — смаллскейл, DPS"
+ },
+ "blazing-staff-crystal-arena-glass-cannon-build": {
+  "title_ru": "Blazing Staff — стеклянная пушка, Хрустальная арена",
+  "description_ru": "Сборка рассчитана только на первый вход, если только он не пройдёт идеально. Это стеклянная пушка: цель — нанести огромный урон и сбросить кулдауны. Вход: подготовьте Royal Hood, затем Royal Sandals, Berserk Potion и Scholar Robe, после E и Fire Artillery. Дальше откатывайтесь, если враг не сильно ослаблен — слишком задерживаться смертельно. Если умираете или нужно меняться — переходите в оборону: Fire Wall, Burning Field и пассивка 1. При сильном хилере/танке можно продолжать давить. Важно: это НЕ идеальная сборка для топовых арен — она для удовольствия; работает и может быть сокрушительной, но слишком хрупкая для серьёзных топ-матчей."
+ },
+ "hellspawn-staff-smallscale-build": {
+  "title_ru": "Hellspawn Staff — смаллскейл, DPS"
+ },
+ "explosive-killer": {
+  "title_ru": "Взрывной убийца"
+ },
+ "dagger-pair-hellgate-build": {
+  "title_ru": "Пара кинжалов — хеллгейт"
+ },
+ "1h-dagger-cheap-roaming-build": {
+  "title_ru": "Одноручный кинжал — дешёвый роуминг",
+  "description_ru": "Отличная сборка для роуминга: низкая цена и универсальность, работает и против мобов, и против игроков. С ней можно зарабатывать несколько миллионов серебра за час через портал S.A.F.E, если повезёт. Тир выбирается по бюджету: примерно mid-July 2025 T4.2 стоил ~150k, T5.2 ~400k (европейские цены). Оружие: Dagger + Torch — вы непобедимы в ближнем бою; Deadly Swipe и Chain Slash наносят много AoE-урона по пачкам; Bloodthirsty Blade даёт урон и sustain, особенно в связке с Haste. Броня: Assassin Hood и Mage Sandals — чистая утилита для частых комбо и бесконечной энергии; Hunter Jacket помогает сustain. Смотрите видео для полной раскладки."
+ },
+ "hallowfall-oneshot-hellgate-build-2": {
+  "title_ru": "Hallowfall — онешот, хеллгейт 2",
+  "description_ru": "Энергия против FTB. Используйте очищающий шлем ради команды — видео закреплено ниже."
+ },
+ "arena-blight-s-tier": {
+  "title_ru": "Blight — арена, тир S",
+  "description_ru": "W + D = полный сброс кулдаунов. Королевские ботинки, чтобы уйти от огненного W; ролл — контроль онешота. Альтернатива Blight — forgebark + Mistcaller: больше живучести, но меньше хилов, чем у Blight. Можно карабкаться соло."
+ },
+ "hand-of-justice-build-clap-pull-zvz-build": {
+  "title_ru": "Hand of Justice — стяг/слэп ZvZ",
+  "description_ru": "Роль: инициатор/стягиватель в групповом контенте. Один из лучших для ведения групповых боёв, сбора врагов и координации входов. До входа: W (Shoulder Charge) или ботинки, чтобы выманить защитников (делаете вид, что идёте, но не идёте). Настоящий вход: когда они потратили защитные скиллы — ботинки + E притягивают нескольких врагов к вашей команде. Слэп: команда выгружает весь урон в собранную кучу. Побег/повторный вход: Assassin Hood сбрасывает E для второго слэпа."
+ },
+ "1h-cursed-cheap-tracking-solo": {
+  "title_ru": "Одноручный проклятый — дешёвый трекинг (соло)",
+  "description_ru": "Шлем: любой тканевый шлем для агрессии (3.5% урона), затем новая способность «Energizing Shield» (пока недоступна, берите экстренный телепорт). Быстрый и простой соло-трекинг без проблем с маной и здоровьем. T5.1 достаточно для чистки T8. Minor Workboots — доп. страховка. Плащ не обязателен: Thetford — быстрее чистка, Undead — безопаснее."
+ },
+ "druidic-staff-build-for-solo-fame-farming": {
+  "title_ru": "Druidic Staff — фарм фейма (соло)"
+ },
+ "wailing-bombs": {
+  "title_ru": "Wailing Bombs"
+ },
+ "flamewalker-staff-sol-gank-build": {
+  "title_ru": "Flamewalker — соло-ганк",
+  "description_ru": "Можно использовать любой плащ. Если мало серебра — берите низкий тир, но эффективность ниже, чем у T8.4/.3. Если есть серебро на сет — ганкьте фракционных транспортёров в жёлтых зонах. Маунт и фракция: elite terrorbird и Bridgewatch (лучший W у маунта). Комбо: W (если на маунте), F и W на себя, D, RR, QQQ, E. После комбо враг будет сбит с маунта даже на T8 Ox. (Одно из любимых оружий/сборок SwoleBenji.)"
+ },
+ "battle-bracers-group-gank-build": {
+  "title_ru": "Battle Bracers — групповой ганк",
+  "description_ru": "Robe of Purity — только для портал-ганка, иначе не покупайте. Минимум сет T7 или хотя бы оружие T8. Обязателен быстрый маунт: Swiftclaw, Direwolf (предпочтительно), Husky или любой быстрый с галопом 120."
+ },
+ "bear-pawns-solo-open-world-pvp-build": {
+  "title_ru": "Bear Paws — соло, открытый PvP",
+  "description_ru": "."
+ },
+ "nature-staff-small-scale-build": {
+  "title_ru": "Природный посох — смаллскейл",
+  "description_ru": "Вдохновлено eFeF."
+ },
+ "arcane-staff-zvz-support-build": {
+  "title_ru": "Аркан — саппорт ZvZ"
+ },
+ "wailing-bow-zvz-bomb-squad-build": {
+  "title_ru": "Wailing Bow — бомб-сквад ZvZ"
+ },
+ "redemption-staff-group-tracking-healer": {
+  "title_ru": "Redemption Staff — хилер для группового трекинга"
+ },
+ "earthrune-staff-engage-tank-zvz-build": {
+  "title_ru": "Earthrune Staff — танк-инициатор ZvZ"
+ },
+ "permafrost-prism-rdps-zvz-build": {
+  "title_ru": "Permafrost Prism — RDPS ZvZ"
+ },
+ "group-dungeon-blazing-pve": {
+  "title_ru": "Групповой данж — Blazing (PvE)"
+ },
+ "lifecourse-staff-group-gank-build": {
+  "title_ru": "Lifecurse Staff — групповой ганк"
+ },
+ "group-dungeon-weeping-pve": {
+  "title_ru": "Групповой данж — Weeping (PvE)"
+ },
+ "great-hammer-small-scale-avalon-build": {
+  "title_ru": "Великий молот — смаллскейл в Авалоне"
+ },
+ "wildfire-tracking": {
+  "title_ru": "Wildfire Staff — трекинг"
+ },
+ "arctic-staff-solo-fame-farm-build": {
+  "title_ru": "Arctic Staff — фарм фейма (соло)"
+ },
+ "staff-of-balance-hellgate-build": {
+  "title_ru": "Staff of Balance — хеллгейт"
+ },
+ "boltcasters-abyssal-depths-build-2v2": {
+  "title_ru": "Boltcasters — Бездна (2v2)",
+  "description_ru": "Альтернативный шлем — Harvester's Cap, но снаряжение гатеринга здесь нельзя использовать как броню, поэтому это лучшая замена."
+ },
+ "blazing-staff-dps-group-build": {
+  "title_ru": "Blazing Staff — DPS в группе"
+ },
+ "great-nature-staff-avalon-road-blue-chest-healer": {
+  "title_ru": "Великий природный посох — хилер, авалонские дороги (синие сундуки)"
+ },
+ "daybreaker-smallscale-build": {
+  "title_ru": "Daybreaker — смаллскейл, DPS"
+ },
+ "small-scale-brawl-build-pvp-brawl-clap-clarent-blade": {
+  "title_ru": "Clarent Blade — бой в толпе, смаллскейл"
+ },
+ "ava-group-priest-swap": {
+  "title_ru": "Авалон, группа — священник (свап)"
+ },
+ "icicle-staff-zvz-support-build": {
+  "title_ru": "Icicle Staff — саппорт ZvZ"
+ },
+ "dawnsong-dps-small-scale-build": {
+  "title_ru": "Dawnsong — смаллскейл, DPS"
+ },
+ "bridled-fury-mdps-zvz-build": {
+  "title_ru": "Bridled Fury — MDPS ZvZ"
+ },
+ "claymore-hellgate-build": {
+  "title_ru": "Claymore — хеллгейт"
+ },
+ "forcepulse-bracers-mist-build": {
+  "title_ru": "Forcepulse Bracers — Мисты (соло)",
+  "description_ru": "Важно о сборке: всегда используйте Q дважды, чтобы усилить урон базовой атаки, и всегда комбинируйте базовую атаку со скиллами. Мне нравится W Fleet Footwork в связке с Курткой наёмника — враг не может контрит лечение. Если враг невидим или снимает баффы, можно быстро выдать E+R+W: враг не успеет отреагировать, окажется под контролем W, и вы вылечите все стаки Куртки наёмника. Этот же W хорош для добивания под Нежитьевым плащом: E+W+Q — плащ активируется, а урон уходит цели. Удачной игры! Смотрите видео для подробностей!"
+ },
+ "light-cross-bow-meta": {
+  "title_ru": "Лёгкий арбалет — Хрустальная арена 1v1",
+  "description_ru": "Используйте W для замедления, спамьте Q, ботинки — для сброса кулдаунов."
+ },
+ "claymore-corrupted-dungeon-build": {
+  "title_ru": "Claymore — искажённый данж"
+ },
+ "primal-staff-smallscale-tank-build": {
+  "title_ru": "Primal Staff — смаллскейл, танк"
+ },
+ "great-arcane-oneshot-ava-build": {
+  "title_ru": "Great Arcane — онешот в Авалоне"
+ },
+ "rotcaller-hg-cheap": {
+  "title_ru": "Rotcaller — дешёвый хеллгейт",
+  "description_ru": "Фронт-тубэк с потенциалом онешота."
+ },
+ "warbow-solo-roaming-and-corrupted-dungeon-build": {
+  "title_ru": "Warbow — соло-роуминг и искажённый данж",
+  "description_ru": "Warbow Hunter — довольно дешёвая, но эффективная сборка: подходит для роуминга, Мистов и Искажённых данжей. Основной сет (Шлем/Ботинки солдата) универсальнее и заточен под выживаемость; альтернатива обратная — Mage Cowl и Assassin Shoes на урон и сброс кулдаунов. Плащи: Thetford — для лучшего PvE и доп. урона, дешёвый; Undead — даёт перевес в чистом PvP. Скиллы: Multi Shot хорош против ближнего боя; Deadly Shot работает почти везде (даже без линии видимости); Poisoned Arrow универсален, но слабее давит."
+ },
+ "hellgates-crystal-reaper": {
+  "title_ru": "Хеллгейты — Crystal Reaper"
+ },
+ "light-crossbow-hce-build": {
+  "title_ru": "Лёгкий арбалет — HCE"
+ },
+ "gankers-dream": {
+  "title_ru": "Мечта гангера"
+ },
+ "blight-hg-anti-heal-comp": {
+  "title_ru": "Blight — хеллгейт, антихил-компа",
+  "description_ru": "Фронт-тубэк с потенциалом онешота, хилер."
+ },
+ "arcane-staff-cd-build": {
+  "title_ru": "Аркан — искажённый данж"
+ },
+ "deathgivers-mist-build": {
+  "title_ru": "Deathgivers — Мисты (соло)"
+ },
+ "blazing-staff-dps-group-fame-farm-build": {
+  "title_ru": "Blazing Staff — DPS, групповой фарм фейма"
+ },
+ "dual-swords-mist-build": {
+  "title_ru": "Двойные мечи — Мисты (соло)"
+ },
+ "nature-fame-farm-build": {
+  "title_ru": "Природный посох — фарм фейма (соло)"
+ },
+ "fists-of-avalon-mist-build": {
+  "title_ru": "Fists of Avalon — Мисты (соло)"
+ },
+ "bear-paws-solo-gank-build": {
+  "title_ru": "Bear Paws — соло-ганк"
+ },
+ "light-crossbow-solo-dungeon-build": {
+  "title_ru": "Лёгкий арбалет — соло-данж"
+ },
+ "cursed-mist-build": {
+  "title_ru": "Проклятый посох — Мисты (соло)"
+ },
+ "badon-bow-cd-build": {
+  "title_ru": "Bow of Badon — искажённый данж"
+ },
+ "incubus-mace-tank-group-fame-farm-build": {
+  "title_ru": "Incubus Mace — танк, групповой фарм фейма"
+ },
+ "prowling-mist-build": {
+  "title_ru": "Prowling Staff — Мисты (соло)"
+ },
+ "battleaxe-solo-dungeon-build": {
+  "title_ru": "Боевой топор — соло-данж"
+ },
+ "dual-sword-solo-dungeon-build": {
+  "title_ru": "Двойные мечи — соло-PvE"
+ },
+ "spear-cd-build": {
+  "title_ru": "Копьё — искажённый данж"
+ },
+ "shadowcaller-group-dungeon-solo-build": {
+  "title_ru": "Shadowcaller — групповой данж (соло)"
+ },
+ "carving-sword-smallscale-build": {
+  "title_ru": "Carving Sword — смаллскейл, DPS"
+ },
+ "earthrune-staff-zvz-tank-build": {
+  "title_ru": "Earthrune Staff — танк ZvZ"
+ },
+ "deathgivers-group-gank-build": {
+  "title_ru": "Deathgivers — групповой ганк"
+ },
+ "bow-of-badon-support-group-fame-farm-build": {
+  "title_ru": "Bow of Badon — саппорт, групповой фарм фейма"
+ },
+ "bloodletter-mist-build": {
+  "title_ru": "Bloodletter — Мисты (соло)"
+ },
+ "demonic-staff-2v2-hellgate-build": {
+  "title_ru": "Demonic Staff — хеллгейт 2v2"
+ },
+ "battleaxe-cd-build": {
+  "title_ru": "Боевой топор — искажённый данж"
+ },
+ "fire-staff-cd-build": {
+  "title_ru": "Огненный посох — искажённый данж"
+ },
+ "boltcasters-solo-dungeon-build": {
+  "title_ru": "Boltcasters — соло-данж"
+ },
+ "druidic-staff-group-dungeon-solo-build": {
+  "title_ru": "Druidic Staff — групповой данж (соло)"
+ },
+ "holy-staff-healer-group-fame-farm-build": {
+  "title_ru": "Святой посох — хилер, групповой фарм фейма"
+ },
+ "spear-mist-build": {
+  "title_ru": "Копьё — Мисты (соло)"
+ },
+ "carving-sword-duo-mist-build": {
+  "title_ru": "Carving Sword — Мисты (дуо)"
+ },
+ "bear-paws-group-gank-build": {
+  "title_ru": "Bear Paws — групповой ганк"
+ },
+ "spirithunter-support-group-fame-farm-build": {
+  "title_ru": "Spirithunter — саппорт, групповой фарм фейма"
+ },
+ "hellfrie-hands-smallscale-build": {
+  "title_ru": "Hellfire Hands — смаллскейл, DPS"
+ },
+ "battle-bracers-mist-build": {
+  "title_ru": "Battle Bracers — Мисты (соло)"
+ },
+ "great-arcane-support-tank-zvz-build": {
+  "title_ru": "Great Arcane — саппорт/танк ZvZ"
+ },
+ "heron-spear-solo-dungeon-build": {
+  "title_ru": "Heron Spear — соло-данж"
+ },
+ "greataxe-solo-dungeon-build": {
+  "title_ru": "Двуручный топор — соло-данж"
+ },
+ "fire-staff-crystal-arena-dps": {
+  "title_ru": "Огненный посох — DPS, Хрустальная арена"
+ },
+ "longbow-zvz-dps-build": {
+  "title_ru": "Длинный лук — DPS ZvZ"
+ },
+ "shadowcaller-support-group-fame-farm-build": {
+  "title_ru": "Shadowcaller — саппорт, групповой фарм фейма"
+ },
+ "bear-paws-mist-build": {
+  "title_ru": "Bear Paws — Мисты (соло)"
+ },
+ "rootbound-staff-smallscale-build": {
+  "title_ru": "Rootbound Staff — смаллскейл, саппорт"
+ },
+ "light-crossbow-dps-group-fame-farm-build": {
+  "title_ru": "Лёгкий арбалет — DPS, групповой фарм фейма"
+ },
+ "carving-mist-build": {
+  "title_ru": "Carving Sword — Мисты (соло)"
+ },
+ "lifecurse-staff-smallscale-build": {
+  "title_ru": "Lifecurse Staff — смаллскейл, саппорт"
+ },
+ "double-bladed-group-gank-build": {
+  "title_ru": "Двуручный посох — групповой ганк"
+ },
+ "wild-staff-solo-fame-farm-avalon-build": {
+  "title_ru": "Wild Staff — фарм фейма в Авалоне (соло)"
+ },
+ "great-frost-staff-solo-dungeon-build": {
+  "title_ru": "Великий ледяной посох — соло-данж"
+ },
+ "abyssal-depths-carving-sword-build": {
+  "title_ru": "Бездна — Carving Sword"
+ },
+ "quarterstaff-mist-build": {
+  "title_ru": "Посох — Мисты (соло)"
+ },
+ "blazing-staff-hellgate-build": {
+  "title_ru": "Blazing Staff — хеллгейт"
+ },
+ "grailseeker-duo-gank-build": {
+  "title_ru": "Grailseeker — ганк дуо"
+ },
+ "grailseeker-group-gank-build": {
+  "title_ru": "Grailseeker — групповой ганк"
+ },
+ "trinity-spear-cd-build": {
+  "title_ru": "Trinity Spear — искажённый данж"
+ },
+ "bloodletter-smallscale-build": {
+  "title_ru": "Bloodletter — смаллскейл, DPS"
+ },
+ "blight-staff-zvz-healer-build": {
+  "title_ru": "Blight Staff — хилер ZvZ"
+ },
+ "cursed-staff-group-gank-build": {
+  "title_ru": "Проклятый посох — групповой ганк"
+ },
+ "infernal-scythe-smallscale-dps-build": {
+  "title_ru": "Infernal Scythe — смаллскейл, DPS"
+ },
+ "double-bladed-mist-build": {
+  "title_ru": "Двуручный посох — Мисты (соло)"
+ },
+ "deathgivers-cd-build": {
+  "title_ru": "Deathgivers — искажённый данж"
+ },
+ "rootbound-staff-support-zvz-build": {
+  "title_ru": "Rootbound Staff — саппорт ZvZ"
+ },
+ "tombhammer-bomb-squad-build": {
+  "title_ru": "Tombhammer — бомб-сквад"
+ },
+ "dual-swords-cd-build": {
+  "title_ru": "Двойные мечи — искажённый данж"
+ },
+ "permafrost-prism-dps-group-fame-farm-build": {
+  "title_ru": "Permafrost Prism — DPS, групповой фарм фейма"
+ },
+ "truebolt-hammer-off-tank-zvz-build": {
+  "title_ru": "Truebolt Hammer — офтанк ZvZ"
+ },
+ "cursed-skull-cd-build": {
+  "title_ru": "Cursed Skull — искажённый данж"
+ },
+ "bloodletter-rat-build": {
+  "title_ru": "Bloodletter — «крыса»"
+ },
+ "chillhowl-hce-build": {
+  "title_ru": "Chillhowl — HCE"
+ },
+ "abyssal-depths-bow-of-badon-build": {
+  "title_ru": "Бездна — Bow of Badon"
+ },
+ "permafrost-prism-smallscale-build": {
+  "title_ru": "Permafrost Prism — смаллскейл, DPS"
+ },
+ "dagger-pair-solo-gank-build": {
+  "title_ru": "Пара кинжалов — онешот, соло-ганк"
+ },
+ "astral-staff-solo-fame-farm-abyssal-depths-build": {
+  "title_ru": "Astral Staff — фарм фейма в Бездне (соло)"
+ },
+ "wildfire-mist-build": {
+  "title_ru": "Wildfire Staff — Мисты (соло)"
+ },
+ "heavy-mace-defensive-tank-zvz-build": {
+  "title_ru": "Heavy Mace — защитный танк ZvZ"
+ },
+ "ava-ironroot": {
+  "title_ru": "Авалон — Ironroot Staff"
+ },
+ "boltcasters-mist-build": {
+  "title_ru": "Boltcasters — Мисты (соло)"
+ },
+ "holy-staff-duo-mist-build": {
+  "title_ru": "Святой посох — Мисты (дуо)"
+ },
+ "kingmaker-smallscale-build": {
+  "title_ru": "Kingmaker — смаллскейл, DPS"
+ },
+ "holy-staff-2v2-hellgate-build": {
+  "title_ru": "Святой посох — хеллгейт 2v2"
+ },
+ "dawnsong-zvz-dps-build": {
+  "title_ru": "Dawnsong — DPS ZvZ"
+ },
+ "pve-demonfang": {
+  "title_ru": "Demonfang — PvE"
+ },
+ "earthrune-staff-tank-crystal-arena-build": {
+  "title_ru": "Earthrune Staff — танк, Хрустальная арена"
+ },
+ "incubus-mace-group-fame-farm-build": {
+  "title_ru": "Incubus Mace — групповой фарм фейма"
+ },
+ "dagger-duo-mist-build": {
+  "title_ru": "Кинжал — Мисты (дуо)"
+ },
+ "rotcaller-staff-rdps-crystal-arena-build": {
+  "title_ru": "Rotcaller Staff — RDPS, Хрустальная арена"
+ },
+ "bridled-fury-solo-bomb-build": {
+  "title_ru": "Bridled Fury — соло-бомба"
+ },
+ "lifecurse-solo-gank-build": {
+  "title_ru": "Lifecurse Staff — соло-ганк"
+ },
+ "light-crossbow-mist-build": {
+  "title_ru": "Лёгкий арбалет — Мисты (соло)"
+ },
+ "bloodmoonsovil": {
+  "title_ru": "Bloodmoon"
+ },
+ "battleaxe-hellgate-build": {
+  "title_ru": "Боевой топор — хеллгейт"
+ },
+ "soulscythe-defensive-tank-zvz-build": {
+  "title_ru": "SoulScythe — защитный танк ZvZ"
+ },
+ "hallowfall-crystal-arena": {
+  "title_ru": "Hallowfall — Хрустальная арена"
+ },
+ "battle-bracers-crystal-arena-build": {
+  "title_ru": "Battle Bracers — Хрустальная арена"
+ },
+ "nasty-badon-build": {
+  "title_ru": "Bow of Badon"
+ },
+ "bear-paws-abyssal-depths-build": {
+  "title_ru": "Bear Paws — Бездна"
+ },
+ "skystrider-bow-corrupted-dungeon-build": {
+  "title_ru": "Skystrider Bow — искажённый данж"
+ },
+ "spirithunter-smallscale-build": {
+  "title_ru": "Spirithunter — смаллскейл, DPS"
+ },
+ "dagger-duo-gank-build": {
+  "title_ru": "Кинжал — ганк дуо"
+ },
+ "hallowfall-staff-small-scale-build": {
+  "title_ru": "Hallowfall — смаллскейл"
+ },
+ "cursed-skull-solo-dungeon-fame-farm-build": {
+  "title_ru": "Cursed Skull — соло-данж, фарм фейма"
+ },
+ "claws-group-gank-dps-build": {
+  "title_ru": "Claws — групповой ганк, DPS"
+ },
+ "great-holy-staff-smallscale-build": {
+  "title_ru": "Великий святой посох — смаллскейл, хилер"
+ },
+ "fists-of-avalon-burst": {
+  "title_ru": "Fists of Avalon — бёрст"
+ }
+}

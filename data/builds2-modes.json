@@ -1,0 +1,74 @@
+[
+ {
+  "slug": "mists-solo",
+  "label": "Туманы (соло)"
+ },
+ {
+  "slug": "mists-duo",
+  "label": "Mists 2v2"
+ },
+ {
+  "slug": "hellgate-2v2",
+  "label": "Хеллгейт 2v2"
+ },
+ {
+  "slug": "hellgate-5v5",
+  "label": "Хеллгейт 5v5"
+ },
+ {
+  "slug": "corrupted-dungeons",
+  "label": "Искажённые подземелья"
+ },
+ {
+  "slug": "gank",
+  "label": "Ганк (группа)"
+ },
+ {
+  "slug": "depths",
+  "label": "Глубины 3v3"
+ },
+ {
+  "slug": "solo-bomb",
+  "label": "Соло-бомба"
+ },
+ {
+  "slug": "bomb-group",
+  "label": "Бомба (группа)"
+ },
+ {
+  "slug": "openworld-solo",
+  "label": "Открытый мир (соло)"
+ },
+ {
+  "slug": "roaming-ava",
+  "label": "Роуминг Авалона"
+ },
+ {
+  "slug": "pve-group",
+  "label": "PvE группа"
+ },
+ {
+  "slug": "small-fight-zvz",
+  "label": "Малый ZvZ"
+ },
+ {
+  "slug": "ancient-lands-solo",
+  "label": "Ancient Lands Solo"
+ },
+ {
+  "slug": "ancient-lands-3v3",
+  "label": "Ancient Lands 3v3"
+ },
+ {
+  "slug": "ancient-lands-5v5",
+  "label": "Ancient Lands 5v5"
+ },
+ {
+  "slug": "ancient-lands-7v7",
+  "label": "Ancient Lands 7v7"
+ },
+ {
+  "slug": "ancient-lands-20v20",
+  "label": "Ancient Lands 20v20"
+ }
+]
